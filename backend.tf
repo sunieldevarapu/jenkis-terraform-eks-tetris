@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
     encrypt        = true
-    bucket         = "terraform-eks-bucket048"
-    dynamodb_table = "terraform-eks-table1019"
+    bucket         = "jenkis-tetris-terraform2793"
+    dynamodb_table = "jenkis-tetris-terraform2793"
     key            = "terra-eks-statefile.tfstate"
     region         = "us-east-1"
   }

@@ -9,8 +9,8 @@
 # }
 
 provider "aws" {
-  access_key = " "
-  secret_key = " "
+  AWS_ACCESS_KEY_ID = ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   region     = "us-east-1"
 }
 
